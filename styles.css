@@ -1,0 +1,205 @@
+.nav1{
+    text-align: center;
+    color: white;
+    height:40px;
+    width:100%;
+    margin: 0%;
+
+    align-content: flex-start;
+    background: linear-gradient(90deg, rgb(0,0,0),rgb(233, 47, 23));
+}
+.nav1 p{
+    margin-top: 10px;
+}
+.sales{
+    padding: 4.5% 10%;
+    background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+    background-position: center;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    align-content: flex-start;
+    color:white;
+    font-size: larger;
+} 
+.sales header{
+    width:70%;
+    background-color:rgba(0,0,0,0.4);
+    padding:2%;
+} 
+.sales h1{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+} 
+.sales p{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.nav2{
+    background-color: black;
+    color:white;
+    align-content: flex-start;
+    height: 50px;
+}
+.buttons ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size:14px;;
+    margin-left: 220px;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+.textbox{
+    width: 380px;
+    height:18px;
+    margin-left: -20px;
+    margin-top: -3px;
+    border-radius: 0%;
+    border-width: 0cap;
+}
+.search{
+    margin-top: -2px;
+    margin-left: -30px;
+}
+body{
+    align-content: flex-start;
+    margin: 0%;
+    overflow-y: scroll;
+}
+.category-1{
+    padding: 1% 5%;
+    background-color: rgba(0,0,0,0.1);
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate; 
+}
+.c1_sub{
+    margin-block: 10px;
+    color: rgba(0,0,0,0.7);
+    padding: 1%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+}
+h1{
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+.tr {
+    height: 150px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 0.1%;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 80%;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+p{
+    margin-top: -1px;
+    margin-left: 4px;
+}
+.category-2{
+    background: linear-gradient(to left,#000000,#434343);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.shoe{
+    width: 85%;
+    height: 75%;
+    padding: 2%;
+    margin: auto;
+    margin-top: 7.5%;
+    box-shadow: 0px 0px 10px gray;
+    box-sizing: border-box;
+    display: block;
+}
+.des{
+    max-width: 40%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.des > p{
+    font-size: large;
+    margin-bottom: 50px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.des p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: 40px;
+}
+.des h1{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.shoe-1 {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+    transition: 0.1s;
+}
+.shoe img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.shoe img:hover{
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    width: 400px;
+    height: 400px;
+
+}
+#navbar{
+    position: sticky;
+    top: 0;
+}
